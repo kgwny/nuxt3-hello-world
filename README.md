@@ -75,3 +75,25 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Prepare
+
+Installing homebrew
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+Installing pnpm
+```bash
+brew install pnpm
+```
+
+Create a new Nuxt3 project
+```bash
+npx nuxi init nuxt3-hello-world
+```
+
+Launching Nuxt3 app
+```bash
+pnpm run dev
+```
