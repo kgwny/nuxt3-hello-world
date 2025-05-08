@@ -88,6 +88,17 @@ Installing pnpm
 brew install pnpm
 ```
 
+```bash
+npm ls -g --depth=0
+
+# version check
+/Users/username/.nodebrew/node/v22.15.0/lib
+├── corepack@0.32.0
+├── npm@11.3.0
+├── pnpm@10.10.0
+└── yarn@1.22.22
+```
+
 Create a new Nuxt3 project
 ```bash
 npx nuxi init nuxt3-hello-world
